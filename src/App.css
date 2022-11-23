@@ -1,0 +1,4 @@
+@font-face {
+	font-family: 'iran_sans';
+	src: local('iran_sans'), url(./assets/fonts/iran_sans.ttf) format('opentype');
+}

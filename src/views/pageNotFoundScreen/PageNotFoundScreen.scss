@@ -1,0 +1,20 @@
+.page-not-found-screen-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #e3f2fd;
+	.page-not-found-screen-title {
+		font-size: 48px;
+		color: #494949;
+	}
+	.page-not-found-screen-description {
+		font-size: 22px;
+		color: #4e4e4e;
+		.page-not-found-screen-link {
+			color: #5e35b1;
+			text-decoration: none;
+		}
+	}
+}

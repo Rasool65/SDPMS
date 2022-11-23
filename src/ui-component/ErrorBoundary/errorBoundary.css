@@ -1,0 +1,30 @@
+.error-boundary-container {
+	height: 60vh;
+	width: 100%;
+	padding: 0 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.error-boundary-image {
+	background-size: cover;
+	background-position: center;
+	width: 40vw;
+	height: 500px;
+}
+
+.error-boundary-text {
+	font-size: 28px;
+	color: #2f8e89;
+}
+
+@media (max-width: 496px) {
+	.error-boundary-image {
+		width: 100%;
+	}
+	.error-boundary-text {
+		font-size: 23px;
+	}
+}
